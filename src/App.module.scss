@@ -1,0 +1,53 @@
+.appWrapper {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100vh;
+}
+
+.main {
+  height: 100%;
+  width: 100vw;
+}
+
+.statusContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gridImg {
+  cursor: pointer;
+}
+
+//
+// Modal
+//
+.modalContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalImgWrapper {
+  position: relative;
+  max-width: calc(100% - 2rem);
+  max-height: calc(100% - 2rem);
+  margin: 0 auto;
+}
+
+.modalImg {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.modalCloseButton {
+  color: white !important;
+  padding-left: 0 !important;
+}
+
+.modalCloseIcon {
+  color: white !important;
+}
