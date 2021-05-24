@@ -43,11 +43,13 @@
   object-fit: contain;
 }
 
+// 1. Would normally set this via the theme
 .modalCloseButton {
-  color: white !important;
+  color: white !important; // 1
   padding-left: 0 !important;
 }
 
+// 1. Would normally set this via the theme
 .modalCloseIcon {
-  color: white !important;
+  color: white !important; // 1
 }
